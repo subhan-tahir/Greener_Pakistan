@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Navbar/Header";
-import Hero from "../Herosection/hero";
 import AboutGreener from "../AboutGreener";
 import CustomizedCards from "../Custimzedcards/CustomizedCards";
 import HouseWorker from "../HouseWorker";
