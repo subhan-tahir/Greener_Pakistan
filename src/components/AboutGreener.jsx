@@ -11,13 +11,13 @@ const AboutGreener = () => {
         >
           <div className="md:w-[48%] w-full h-[500px] relative">
             <div className="absolute top-0 z-[3]">
-              <img src="src/assets/solarsun.jpg" alt="" className="w-[450px] h-[430px] rounded-[20px]"/>
+              <img src="/src/assets/solarsun.jpg" alt="" className="w-[450px] h-[430px] rounded-[20px]"/>
             </div>
             <div className="absolute bottom-0 right-0 z-[4]">
-              <img src="src/assets/whiteSolar.jpg" alt="" className="w-[300px] h-[230px] bg-cover bg-center rounded-[20px] border-[8px] border-white"/>
+              <img src="/src/assets/whiteSolar.jpg" alt="" className="w-[300px] h-[230px] bg-cover bg-center rounded-[20px] border-[8px] border-white"/>
             </div>
             <div className="absolute right-0 top-[20px] z-[1] bg-cover">
-              <img src="src/assets/about-right-shape.svg" alt="" className=""/>
+              <img src="/src/assets/about-right-shape.svg" alt="" className=""/>
             </div>
           </div>
           <div className="md:w-[52%]  w-full flex flex-col gap-[20px]">
@@ -46,7 +46,7 @@ const AboutGreener = () => {
             <div className="flex flex-wrap gap-[10px] items-center ">
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="src/assets/leaf.webp"
+                  src="/src/assets/leaf.webp"
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -54,7 +54,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="src/assets/leaf.webp"
+                  src="/src/assets/leaf.webp"
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -62,7 +62,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="src/assets/leaf.webp"
+                  src="/src/assets/leaf.webp"
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -70,7 +70,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="src/assets/leaf.webp"
+                  src="/src/assets/leaf.webp"
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
