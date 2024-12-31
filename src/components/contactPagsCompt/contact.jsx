@@ -6,7 +6,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
 let contactCardOptionsData = [
   {
-    bgImg: "src/assets/LocationBg.webp",
+    bgImg: "/src/assets/LocationBg.webp",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ let contactCardOptionsData = [
     para: "Suite # 105, 1st Floor, Sea Breeze Plaza, Shahra-e-Faisal, Karachi- 75330, Pakistan.",
   },
   {
-    bgImg: "src/assets/mailBg.webp",
+    bgImg: "/src/assets/mailBg.webp",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ let contactCardOptionsData = [
     para: "info@greener.com.pk",
   },
   {
-    bgImg: "src/assets/phoneBg.webp",
+    bgImg: "/src/assets/phoneBg.webp",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ let contactCardOptionsData = [
     para: "Tel No :03331111526, 032811GREEN Fax No : +92 21 32791115",
   },
   {
-    bgImg: "src/assets/contactBg.webp",
+    bgImg: "/src/assets/contactBg.webp",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

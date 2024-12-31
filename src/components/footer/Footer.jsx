@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex flex-wrap gap-[20px] px-[20px] py-[30px] ">
             <div className="flex flex-col gap-[25px]  w-[300px]">
               <img
-                src="src/assets/logo1.png"
+                src="/src/assets/logo1.png"
                 alt=""
                 className="w-[180px] filter"
               />

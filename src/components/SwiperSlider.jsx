@@ -36,7 +36,7 @@ const SwiperSlider = () => {
         <SwiperSlide className="swiper-slider">
           <div
             style={{
-              backgroundImage: "url('src/assets/solar.png')",
+              backgroundImage: "url('/src/assets/solar.png')",
             }}
             className="slide w-full h-screen bg-cover bg-center relative"
           >
@@ -70,7 +70,7 @@ const SwiperSlider = () => {
         <SwiperSlide className="swiper-slider">
           <div
             style={{
-              backgroundImage: "url('src/assets/cabilng-pic.webp')",
+              backgroundImage: "url('/src/assets/cabilng-pic.webp')",
             }}
             className="slide w-full h-screen bg-cover bg-center relative"
           >
@@ -106,7 +106,7 @@ const SwiperSlider = () => {
         <SwiperSlide className="swiper-slider">
           <div
             style={{
-              backgroundImage: "url('src/assets/building-pic.webp')",
+              backgroundImage: "url('/src/assets/building-pic.webp')",
             }}
             className="slide w-full h-screen bg-cover bg-center relative"
           >
