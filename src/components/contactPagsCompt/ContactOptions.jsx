@@ -1,6 +1,5 @@
 import React from "react";
 import contactCardOptionsData from "./contact";
-import { FaFacebook } from "react-icons/fa";
 const ContactOptions = () => {
   return (
     <>

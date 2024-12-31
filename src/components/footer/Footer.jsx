@@ -11,7 +11,7 @@ const Footer = () => {
             {
               row1.map((value,index)=>{
                 return(
-                   <div className="flex items-center gap-[20px] flex-1">
+                   <div className="flex items-center gap-[20px] flex-1" key={index}>
               <div className="bg-white p-[20px] rounded-[20px] hover:scale-[1.05] transition-all ease-in-out duration-300 cursor-pointer">
                 {value.svg}
               </div>

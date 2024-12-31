@@ -8,7 +8,7 @@ import Packages from "../packages/Packages";
 import GeoMessage from "../GeoMessage";
 import AutoSlider from "../AutoSlider";
 import Footer from "../footer/Footer";
-
+import Hero from "../Herosection/Hero";
 const Home = () => {
   return (
     <>
