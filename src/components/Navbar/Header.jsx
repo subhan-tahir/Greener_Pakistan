@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { FaEnvelope } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { contactButtons, navbarItems } from "./script";
-import logo from "/src/assets/logo.webp";
+import logo from "/src//logo.webp";
 import { NavLink,Link } from "react-router-dom";
 import SideBar from "./SideBar";
 const Header = () => {
