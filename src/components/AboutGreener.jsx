@@ -1,6 +1,8 @@
 import React from "react";
 import solorBg from "../assets/solarsun.jpg"
 import whiteSolor from '../assets/whiteSolar.jpg'
+import aboutWatermark from '../assets/about-right-shape.svg'
+import leaf from '../assets/leaf.webp'
 const AboutGreener = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const AboutGreener = () => {
               <img src={whiteSolor} alt="" className="w-[300px] h-[230px] bg-cover bg-center rounded-[20px] border-[8px] border-white"/>
             </div>
             <div className="absolute right-0 top-[20px] z-[1] bg-cover">
-              <img src="/src/assets/about-right-shape.svg" alt="" className=""/>
+              <img src={aboutWatermark} alt="" className=""/>
             </div>
           </div>
           <div className="md:w-[52%]  w-full flex flex-col gap-[20px]">
@@ -47,7 +49,7 @@ const AboutGreener = () => {
             <div className="flex flex-wrap gap-[10px] items-center ">
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -55,7 +57,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -63,7 +65,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -71,7 +73,7 @@ const AboutGreener = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
