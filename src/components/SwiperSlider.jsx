@@ -4,9 +4,9 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { NavLink } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/navigation";
-import sliderbg1 from '../assets/solar.png'
-import sliderbg2 from '../assets/cabilng-pic.webp'
-import sliderbg3 from '../assets/building-pic.webp'
+import sliderbg1 from '../assets/solar.png';
+// import sliderbg2 from '../assets/cabilng-pic.webp';
+import sliderbg3 from '../assets/building-pic.webp';
 const SwiperSlider = () => {
   const [title, setTitle] = useState("Paving the way to a Greener");
 
@@ -72,7 +72,7 @@ const SwiperSlider = () => {
         <SwiperSlide className="swiper-slider">
           <div
             style={{
-              backgroundImage: `url(${sliderbg2})`,
+              backgroundImage: `url('https://greener.com.pk/assets/cabling-BHHQdiRU.jpg')`,
             }}
             className="slide w-full h-screen bg-cover bg-center relative"
           >

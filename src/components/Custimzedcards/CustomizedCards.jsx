@@ -2,7 +2,6 @@ import React from "react";
 import cardPic from '/src/assets/cardPic.jpg'
 import cardLogo from '/src/assets/cardlogo1.webp'
 
-
 const CustomizedCards = () => {
 
 let cardsData = [
