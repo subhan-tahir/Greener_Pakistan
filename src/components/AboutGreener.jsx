@@ -1,5 +1,5 @@
 import React from "react";
-
+import solorBg from "../assets/solarsun.jpg"
 const AboutGreener = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const AboutGreener = () => {
         >
           <div className="md:w-[48%] w-full h-[500px] relative">
             <div className="absolute top-0 z-[3]">
-              <img src="/src/assets/solarsun.jpg" alt="" className="w-[450px] h-[430px] rounded-[20px]"/>
+              <img src={solorBg} alt="" className="w-[450px] h-[430px] rounded-[20px]"/>
             </div>
             <div className="absolute bottom-0 right-0 z-[4]">
               <img src="/src/assets/whiteSolar.jpg" alt="" className="w-[300px] h-[230px] bg-cover bg-center rounded-[20px] border-[8px] border-white"/>
