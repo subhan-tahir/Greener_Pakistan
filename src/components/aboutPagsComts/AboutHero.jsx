@@ -1,10 +1,10 @@
 import React from 'react'
-
+import heroBg from '/src/assets/solar.png';
 const AboutHero = ({title}) => {
   return (
     <>
      <div
-        style={{ backgroundImage: `url(${"src/assets/solar.png"})` }}
+        style={{ backgroundImage: `url(${heroBg})` }}
         className="bg-cover w-full h-[60vh] z-[-4] bg-center" 
       >
         <div className=" flex justify-center items-center h-full  w-[100%]">
