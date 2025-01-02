@@ -1,6 +1,6 @@
 import React from 'react'
-import watermark from '../assets/about-right-shape.svg'
-import leaf from '../assets/leaf.webp'
+import watermark from '/src/assets/about-right-shape.svg'
+import leaf from '/src/assets/leaf.webp'
 const Empower = ({ title, additionalTitle, des ,wiredPic1,wiredPic2 , reverse, list}) => {
     return (
         <>
