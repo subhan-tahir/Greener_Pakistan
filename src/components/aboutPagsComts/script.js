@@ -1,19 +1,28 @@
+import aboutCardBg1 from '/src/assets/cardPic.jpg'
+import aboutCardBg2 from '/src/assets/cardPic1.jpg'
+import aboutCardBg3 from '/src/assets/cardPic2.jpg'
+import aboutCardLogo1 from '/src/assets/cardLogo3.webp'
+import aboutCardLogo2 from '/src/assets/cardLogo4.webp'
+import aboutCardLogo3 from '/src/assets/cardLogo2.webp'
+import workCardBg1 from '/src/assets/planningPic.svg'
+import workCardBg2 from '/src/assets/research.svg'
+import workCardBg3 from '/src/assets/install.svg'
 let aboutcardsData = [
     {
-      cardBgImg: "/src/assets/cardPic.jpg",
-      cardlogo: "/src/assets/cardLogo3.webp",
+      cardBgImg: aboutCardBg1,
+      cardlogo: aboutCardLogo1,
       title: "Efficiency & Power",
       
     },
     {
-      cardBgImg: "/src/assets/cardPic1.jpg",
-      cardlogo: "/src/assets/cardLogo4.webp",
+      cardBgImg:aboutCardBg2,
+      cardlogo: aboutCardLogo2,
       title: "Trust & Warranty",
       
     },
     {
-      cardBgImg: "/src/assets/cardPic2.jpg",
-      cardlogo: "/src/assets/cardLogo2.webp",
+      cardBgImg: aboutCardBg3,
+      cardlogo: aboutCardLogo3,
       title: "High Quality Work",
      
     },
@@ -27,19 +36,19 @@ let aboutcardsData = [
   ]
   let ourWorkData = [
     {
-      img:'src/assets/planningPic.svg',
+      img:workCardBg1,
       count:1,
       title:'Project Planning',
       des:'Develop tailored solar solutions through comprehensive site assessments and detailed system design.',
     },
     {
-      img:'src/assets/research.svg',
+      img:workCardBg2,
       count:2,
       title:'Research & Analysis',
       des:'Conduct thorough feasibility studies and cost-benefit analyses to ensure optimal solar system performance.',
     },
     {
-      img:'src/assets/install.svg',
+      img:workCardBg3,
       count:3,
       title:'Solar Installation',
       des:'Expertly install and commission solar systems using high-quality components for maximum efficiency and reliability.',
