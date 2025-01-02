@@ -4,9 +4,12 @@ import { FaLinkedin } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
 import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa6";
+import contactCardLocationBg from '/src/assets/LocationBg.webp'
+import contactCardMailBg from '/src/assets/mailBg.webp'
+import contactCardPhoneBg from '/src/assets/phoneBg.webp'
 let contactCardOptionsData = [
   {
-    bgImg: "/src/assets/LocationBg.webp",
+    bgImg: contactCardLocationBg,
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +40,7 @@ let contactCardOptionsData = [
     para: "Suite # 105, 1st Floor, Sea Breeze Plaza, Shahra-e-Faisal, Karachi- 75330, Pakistan.",
   },
   {
-    bgImg: "/src/assets/mailBg.webp",
+    bgImg: contactCardMailBg,
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +91,7 @@ let contactCardOptionsData = [
     para: "info@greener.com.pk",
   },
   {
-    bgImg: "/src/assets/phoneBg.webp",
+    bgImg: contactCardPhoneBg,
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
