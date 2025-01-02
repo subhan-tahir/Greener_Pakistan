@@ -5,6 +5,7 @@ import { contactButtons, navbarItems } from "./script";
 import logo from "/src/assets/logo.webp";
 import { NavLink,Link } from "react-router-dom";
 import SideBar from "./SideBar";
+import barBtn from '/src/assets/bar.png'
 const Header = () => {
   const [sidebar, setSideBar] = useState(false);
   let toggleSideBarHandler = () => {
@@ -148,7 +149,7 @@ const Header = () => {
               onClick={toggleSideBarHandler}
               className="lg:hidden flex  items-center justify-center h-full relative  p-2 text-white "
             >
-              <img src="src/assets/bar.png" alt="" className="w-[40px]" />
+              <img src={barBtn} alt="" className="w-[40px]" />
             </button>
           </div>
         </div>
