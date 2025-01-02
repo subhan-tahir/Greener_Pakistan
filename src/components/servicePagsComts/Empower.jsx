@@ -1,5 +1,6 @@
 import React from 'react'
-
+import watermark from '../assets/about-right-shape.svg'
+import leaf from '../assets/leaf.webp'
 const Empower = ({ title, additionalTitle, des ,wiredPic1,wiredPic2 , reverse, list}) => {
     return (
         <>
@@ -24,7 +25,7 @@ const Empower = ({ title, additionalTitle, des ,wiredPic1,wiredPic2 , reverse, l
                             />
                         </div>
                         <div className="absolute right-0 top-[20px] z-[1] bg-cover">
-                            <img src="/src/assets/about-right-shape.svg" alt="" className="" />
+                            <img src={watermark} alt="" className="" />
                         </div>
                     </div>
                     <div className="md:w-[52%] w-full flex flex-col gap-[20px]">
@@ -50,7 +51,7 @@ const Empower = ({ title, additionalTitle, des ,wiredPic1,wiredPic2 , reverse, l
                                     return(
                                     <div className="flex gap-[10px] items-center" key={index}>
                                         <img
-                                            src='/src/assets/leaf.webp'
+                                            src={leaf}
                                             alt=""
                                             className="w-[25px] h-[25px] object-contain"
                                         />
