@@ -1,5 +1,6 @@
 import React from "react";
-
+import houseBg from '../assets/house.webp';
+import waterMark from '../assets/about-right-shape.svg';
 const HouseWorker = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const HouseWorker = () => {
           <div className="md:w-[48%] w-full h-[500px] relative">
             <div className="absolute top-0 z-[3]">
               <img
-                src="/src/assets/house.webp"
+                src={houseBg}
                 alt=""
                 className="w-[450px] h-[430px] rounded-[20px]"
               />
@@ -24,7 +25,7 @@ const HouseWorker = () => {
               />
             </div>
             <div className="absolute right-0 top-[20px] z-[1] bg-cover">
-              <img src="/src/assets/about-right-shape.svg" alt="" className="" />
+              <img src={waterMark} alt="" className="" />
             </div>
           </div>
           <div className="md:w-[52%] w-full flex flex-col gap-[20px]">
