@@ -8,7 +8,7 @@ const CustomizedCards = () => {
 let cardsData = [
   {
     cardBgImg: cardBgImg1,
-    cardlogo: 'src/assets/cardlogo1.webp',
+    cardlogo: '/src/assets/cardlogo1.webp',
     title: "Consultation",
     description: ` Our experienced solar experts will conduct a thorough assessment
               of your home and energy needs to determine the optimal solar
