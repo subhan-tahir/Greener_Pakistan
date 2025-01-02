@@ -2,38 +2,35 @@ import React from "react";
 import cardBgImg1 from '/src/assets/cardPic.jpg'
 import cardBgImg2 from '/src/assets/cardPic1.jpg'
 import cardBgImg3 from '/src/assets/cardPic2.jpg'
-import cardLogo1 from '/src/assets/cardLogo1.webp'
-import cardLogo2 from '/src/assets/cardLogo2.webp'
-import cardLogo3 from '/src/assets/cardLogo3.webp'
-import cardLogo4 from '/src/assets/cardLogo4.webp'
+
 const CustomizedCards = () => {
 
 let cardsData = [
   {
     cardBgImg: cardBgImg1,
-    cardlogo: cardLogo1,
+    cardlogo: 'src/assets/cardlogo1.webp',
     title: "Consultation",
-    description: ` Our experienced solar expert will conduct a thorough assessment
+    description: ` Our experienced solar experts will conduct a thorough assessment
               of your home and energy needs to determine the optimal solar
               solution for you.`,
   },
   {
     cardBgImg:cardBgImg2,
-    cardlogo: cardLogo2,
+    cardlogo: "/src/assets/cardLogo4.webp",
     title: "Custom Design",
     description: `We design each solar power system from scratch, taking into account
      factors such as roof orientation, shading, energy consumption patterns, and aesthetic preferences.`,
   },
   {
     cardBgImg: cardBgImg3,
-    cardlogo: cardLogo3,
+    cardlogo: "/src/assets/cardLogo2.webp",
     title: "Professional Installation",
     description: `Our team of certified technicians will install your solar panels with precision and care, ensuring 
     seamless integration with your home and maximum energy production. `,
   },
   {
     cardBgImg: cardBgImg3,
-    cardlogo: cardLogo4,
+    cardlogo: "/src/assets/cardLogo1.webp",
     title: "Ongoing Support",
     description: `We provide comprehensive support and maintenance services to keep your solar system running smoothly for years to come, 
     including monitoring performance, and conducting inspections.`,
