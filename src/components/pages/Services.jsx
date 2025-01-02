@@ -8,7 +8,7 @@ import AutoSlider from '../AutoSlider'
 import Footer from '../footer/Footer'
 import { serviceCardsData } from '../servicePagsComts/script'
 import wiredBg1 from '/src/assets/wiredPic1.webp'
-import wiredBg2 from '/src/assets/wiredPic2.webp'
+import wiredBg2  from '/src/assets/wiredPic2.webp'
 import serviceBg1 from '/src/assets/servicePic2.webp'
 import serviceBg2 from '/src/assets/solarstand.webp'
 import serviceBg3 from '/src/assets/servicePic4.webp'
@@ -61,10 +61,6 @@ const Services = () => {
 
 
       <ServiceCards cardsData={serviceCardsData} />
-
-
-
-
       <Empower title={project1.title} additionalTitle={project1.subtitle} des={project1.description}
         wiredPic1={project1.wiredPic1} wiredPic2={project1.wiredPic2} list={project1.list} reverse={true}
       />
