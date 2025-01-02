@@ -1,6 +1,8 @@
 import React from "react";
 import houseBg from '../assets/house.webp';
 import waterMark from '../assets/about-right-shape.svg';
+import workerBg from '../assets/worker.webp'
+import leaf from '../assets/leaf.webp'
 const HouseWorker = () => {
   return (
     <>
@@ -19,7 +21,7 @@ const HouseWorker = () => {
             </div>
             <div className="absolute bottom-0 right-0 z-[4]">
               <img
-                src="/src/assets/worker.webp"
+                src={workerBg}
                 alt=""
                 className="w-[300px] h-[230px] bg-cover bg-center rounded-[20px] border-[8px] border-white"
               />
@@ -53,7 +55,7 @@ const HouseWorker = () => {
             <div className="flex flex-wrap gap-[10px] items-center ">
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -63,7 +65,7 @@ const HouseWorker = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -71,7 +73,7 @@ const HouseWorker = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />
@@ -81,7 +83,7 @@ const HouseWorker = () => {
               </div>
               <div className="flex gap-[10px] items-center  w-[250px]">
                 <img
-                  src="/src/assets/leaf.webp"
+                  src={leaf}
                   alt=""
                   className="w-[25px] h-[25px] object-contain"
                 />

@@ -1,6 +1,6 @@
 import React from "react";
 import row1 from "./script";
-
+import footerLogo from '/src/assets/logo1.png'
 
 const Footer = () => {
   return (
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex flex-wrap gap-[20px] px-[20px] py-[30px] ">
             <div className="flex flex-col gap-[25px]  w-[300px]">
               <img
-                src="/src/assets/logo1.png"
+                src={footerLogo}
                 alt=""
                 className="w-[180px] filter"
               />

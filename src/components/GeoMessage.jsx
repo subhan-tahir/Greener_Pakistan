@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
-
+import ceoManager from '../assets/ceoManager.webp'
 const GeoMessage = () => {
   const containerRef = useRef(null);
   const isInView = useInView(containerRef, { once: true, threshold: 0.5 }); // Trigger animation once
@@ -73,7 +73,7 @@ const GeoMessage = () => {
 
         {/* Image Section */}
         <div className="sm:w-1/3 w-full">
-          <img src="src/assets/uncleJee.webp" alt="CEO" className="w-full" />
+          <img src={ceoManager} alt="CEO" className="w-full" />
         </div>
 
         {/* Animated Counters Section */}
