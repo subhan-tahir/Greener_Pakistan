@@ -1,10 +1,13 @@
 import React from "react";
+import cardBgImg1 from '/src/assets/cardPic.jpg'
+import cardBgImg2 from '/src/assets/cardPic1.jpg'
+import cardBgImg3 from '/src/assets/cardPic2.jpg'
 
 const CustomizedCards = () => {
 
 let cardsData = [
   {
-    cardBgImg: 'src/assets/cardPic.jpg',
+    cardBgImg: cardBgImg1,
     cardlogo: 'src/assets/cardlogo1.webp',
     title: "Consultation",
     description: ` Our experienced solar experts will conduct a thorough assessment
@@ -12,21 +15,21 @@ let cardsData = [
               solution for you.`,
   },
   {
-    cardBgImg: "src/assets/cardPic1.jpg",
+    cardBgImg:cardBgImg2,
     cardlogo: "src/assets/cardLogo4.webp",
     title: "Custom Design",
     description: `We design each solar power system from scratch, taking into account
      factors such as roof orientation, shading, energy consumption patterns, and aesthetic preferences.`,
   },
   {
-    cardBgImg: "src/assets/cardPic2.jpg",
+    cardBgImg: cardBgImg3,
     cardlogo: "src/assets/cardLogo2.webp",
     title: "Professional Installation",
     description: `Our team of certified technicians will install your solar panels with precision and care, ensuring 
     seamless integration with your home and maximum energy production. `,
   },
   {
-    cardBgImg: "src/assets/cardPic2.jpg",
+    cardBgImg: cardBgImg3,
     cardlogo: "src/assets/cardLogo1.webp",
     title: "Ongoing Support",
     description: `We provide comprehensive support and maintenance services to keep your solar system running smoothly for years to come, 
