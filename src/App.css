@@ -80,7 +80,7 @@ border: 3px solid var(--primaryColor);
 }
 
 .swiper-button-prev, .swiper-button-next {
-  color: var(--primaryColor);
+  color: var(--primaryColor) !important;
   background-color: var(--secondaryColor);
   border-radius: 5px;
   padding: 10px;
@@ -92,7 +92,7 @@ font-size:26px !important
 }
 .swiper-button-prev:hover,.swiper-button-next:hover {
   background-color: var(--primaryColor);
-  color: var(--secondaryColor)
+  color: var(--secondaryColor) !important
 }
 @media (max-width: 460px) {
   .swiper-button-prev, .swiper-button-next {
