@@ -9,7 +9,7 @@ const AboutHero = ({title}) => {
       >
         <div className=" flex justify-center items-center h-full  w-[100%]">
           <div className='mt-28'>
-           <h1 className="text-[60px] text-center font-[700] text-[--whiteColor] shadow" style={{textShadow:'5px 5px 15px black'}}>{title}</h1>
+           <h1 className="sm:text-[60px] text-[2rem] text-center font-[700] text-[--whiteColor] shadow" style={{textShadow:'5px 5px 15px black'}}>{title}</h1>
           </div>
 
         </div>
