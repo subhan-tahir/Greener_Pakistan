@@ -7,6 +7,7 @@ import { FaPinterest } from "react-icons/fa6";
 import contactCardLocationBg from '/src/assets/LocationBg.webp'
 import contactCardMailBg from '/src/assets/mailBg.webp'
 import contactCardPhoneBg from '/src/assets/phoneBg.webp'
+import contactBg from '/src/assets/contactBg.webp'
 let contactCardOptionsData = [
   {
     bgImg: contactCardLocationBg,
@@ -122,7 +123,7 @@ let contactCardOptionsData = [
     para: "Tel No :03331111526, 032811GREEN Fax No : +92 21 32791115",
   },
   {
-    bgImg: "/src/assets/contactBg.webp",
+    bgImg:contactBg,
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
