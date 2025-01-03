@@ -3,10 +3,9 @@ import serviceCardPic1 from '/src/assets/house.webp';
 import serviceCardPic2 from '/src/assets/servicePic1.webp';
 import serviceCardPic3 from '/src/assets/servicePic2.webp';
 import serviceCardPic4 from '/src/assets/servicePic3.webp';
-
-
-
-
+import sloarBg from '/src/assets/solarsun.jpg'
+import inverterBg from '/src/assets/inverter.webp'
+import batteryBg from '/src/assets/battery.webp'
 
 
 
@@ -42,17 +41,17 @@ let serviceCardsData = [
 let serviceCardsData1 = [
   
     {
-        pic:'/src/assets/solarsun.jpg',
+        pic:sloarBg,
         title:'SOLAR PANELS',
         des:'Empower your energy system with our advanced inverters, ensuring seamless conversion and utilization of solar power for your needs',
     },
     {
-        pic:'/src/assets/inverter.webp',
+        pic:inverterBg,
         title:'INVERTERS',
         des:'Professional installation services by our team of certified technicians, ensuring optimal performance and reliability of your solar energy system.',
     },
     {
-        pic:'/src/assets/battery.webp',
+        pic:batteryBg,
         title:'BATTERIES',
         des:'Ongoing maintenance and support to keep your solar panels operating at peak efficiency, maximizing your return on investment.',
     },
